@@ -1,0 +1,280 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul li a:hover{
+  text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+  transition: 300ms;
+}
+
+ul {
+  list-style: none;
+}
+
+#logo img{
+  max-width: 160px;
+  padding: 5px;
+  position: relative;  top: 10px; left: 44%;
+  
+  
+}
+h2{
+  padding: 30px;
+}
+header, footer {
+  background: url(./aShine.jpg)  center center fixed;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  display: block;
+}
+
+
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+header ul li{
+  padding: 13px;
+  position: relative; left: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.container, .container .texto p, .container .presentation{
+  text-align: justify;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+.container, .container .texto i{
+  text-align: center;
+}
+
+.container .name h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+.container .name h5 {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+}
+
+.container{
+  padding: 50px;
+}
+
+#arrow{
+  font-size: 35px;
+  cursos: pointer;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink{
+  to{
+    visibility: hidden;
+  }
+  
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+.active{
+  display: block !important;
+}
+#animation{
+  transition: 300ms;  
+}
+.presentation, .form{
+  width: 80%;
+  margin: 30px auto;
+  padding: 60px;
+  border: solid 1px #f7f7f7;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color:  #f7f7f7;
+}
+.form{
+  position: relative; top:10px;
+}
+
+.form input{
+  width: 50%;
+  min-width: 70px;
+  padding: 20px;
+  margin-right: -7px; 
+}
+
+.form button{
+  width: 30%;
+  max-width: 100px;
+  min-width: 10px;
+  background-color: #c982ce;
+  color: white;
+  padding: 20px;
+  border: solid 2px #c982ce;
+}
+
+.form button:hover{
+  background-color: #e1a8d7;
+  text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+  transition: 300ms;
+}
+
+.container .contacts{
+  padding: 50px;
+}
+
+.container .contacts a{
+  color: #c982ce;
+  font-size: 20px;
+}
+.container .proj{
+  margin: 10px;
+  padding: 30px;
+  border: solid 1px #f7f7f7;
+  border-radius: 10px;
+  font-size: 20px;
+  max-wight: 15px;
+  background-color:  #f7f7f7;
+
+}
+.container .proj:hover{
+  background-color: #dedede;
+  
+
+}
+.container .proj p{
+  color: black;
+  padding: 40px;
+}
+.container .proj p:hover{
+  color: white;
+  
+}
+.container #projs{
+  max-width: 600px;
+}
+.container .contacts a:hover{
+  text-shadow: 0 0 0.2em #ba84f1;
+}
+
+.container .contacts img{
+  margin: 40px;
+  max-width: 80px;
+}
+
+.container #linguagens img{
+  margin: 5px;
+  max-width: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative; left: 25%; top: 30px;
+}
+.container .me img{
+    max-width: 360px;
+    max-height: 370px;
+}
+.me{
+    display: flex;
+}
+main{
+  height: 100%;
+}
+
+
+
+footer{
+  position: relative; top: 100px; bottom: auto;
+  padding: 100px;
+}
+
+@media only screen and (max-width: 800px){
+  #logo img{
+  max-width: 120px;
+  padding: 5px;
+  position: relative; top: 5px; left:35%;
+  
+}
+  header ul li{
+    padding: 10px;
+  }
+  header {
+  display: block;
+}
+  a {
+  font-size: 16px;
+}
+  .container .name h1{
+    font-size: 30px;
+  }
+  .container .name h5 {
+  font-size: 16px;
+}
+.container, .container .texto p, .container .presentation{
+  padding: 15px;
+  font-size: 15px;
+  }
+.form input{
+  width: 70%;
+   
+}
+
+.form button{
+  width: 55%;
+ 
+}
+  .presentation, .form{
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+.container .me img{
+    max-width: 200px;
+    max-height: 230px;
+}
+.me{
+    display: block;
+}
+.container .proj p{
+  font-size: 18px;
+  padding: 30px;
+}
+#arrow{
+  font-size: 20px;
+  animation: blink 1s steps(5, start) infinite;
+}
+  
+@keyframes blink{
+  to{
+    visibility: hidden;
+  }
+  
+}
+  .container #projs{
+  max-width: 270px;
+}
+
+
+}
+  
