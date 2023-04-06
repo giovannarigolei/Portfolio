@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Giovanna Rigolei - Portifólio</title>
+  <script src="https://kit.fontawesome.com/d8f9d178fc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header style="background: url(imagens/aShine.jpg)  center center fixed;">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <div id="logo">
+      <img src="imagens/logoGR.png" alt="logo"
+    </div>
+    <div>
+    <ul>
+      <li>
+        <a href="index.html">Início</a>
+      </li>
+      <li>
+        <a href="sobremim.html">Sobre Mim</a>
+      </li>
+      <li>
+        <a href="projetos.html">Projetos</a>
+      </li>
+      <li>
+        <a href="contatos.html">Contatos</a>
+      </li>
+    </ul>
+   </div>
+  </header>
+  <main>
+    <section class="container">
+      <div class="name">
+        <h1>
+          Giovanna Rigolei
+        </h1>
+        <h5>
+          Estudante de Ciências da Computação e Engenharia Aeroespacial.
+        </h5>
+      </div>
+      <div onclick="displayAbout()" id="arrow">
+        <i id="animation" class="fa-solid fa-square-caret-down"></i>
+      </div>
+      <div style="display: none;" class="texto" id="texto">        
+        <p>Bem-vindo ao meu portifólio!</p>
+        <p>Meu nome é Giovanna, sou estudante do Bacharelado Interdisciplinar (BI) em Ciências e Tecnologia na UFABC, com pós BI em Ciências da Computação e Engenharia Aeroespacial.</p>
+
+        <p>Aspirante a desenvolvedora, tenho domínio básico em:
+        </p>
+        
+        <ul id="linguagens">
+          
+          <li><img src="imagens/html.png" alt="logo">HTML</li>
+          <li><img src="imagens/css.png" alt="logo">CSS</li>
+          <li><img src="imagens/js.png" alt="logo">JavaScript</li>
+          <li><img src="imagens/ts.svg" alt="logo">TypeScript</li>
+          <li><img src="imagens/ng.png" alt="logo">Angular</li>
+          <li><img src="imagens/java.png" alt="logo">Java</li>
+          <li><img src="imagens/py.png" alt="logo">Python</li>
+        </ul>
+      </div>
+      <div class="form">
+        <div>
+          <p>Deixe seu feedback!</p>
+        </div>
+        <form action="">
+          <br><br>
+            <label for="nome" > Nome:</label>
+            <input type="text" id="nome" name="nome" style="height: 20px;"><br><br>
+            <label for="email" > E-mail:</label>
+            <input type="email" id="email" name="email" style="height: 20px;"><br><br>
+            <label for="mensagem">Feedback:</label>
+            <input id="mensagem" name="mensagem" style="height: 200px; "></input><br><br>
+          
+          <button type="enviar" id="enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer style="background: url(imagens/aShine.jpg)  center center fixed;">
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+  
+</html>
